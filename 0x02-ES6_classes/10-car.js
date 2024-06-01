@@ -1,11 +1,11 @@
 export default class Car {
-  constructor(brand, moto, color) {
+  constructor(brand, motor, color) {
     this._brand = brand;
-    this._moto = moto;
+    this._motor = motor;
     this._color = color;
   }
 
   cloneCar() {
-    return new this.constructor(this._brand, this._moto, this._color);
+    return new this.constructor(this._brand, this._motor, this._color);
   }
 }
